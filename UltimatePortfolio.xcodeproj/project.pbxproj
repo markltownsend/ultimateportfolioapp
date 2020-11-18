@@ -15,6 +15,7 @@
 		4D89ECA1255C586B0068BF27 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D89ECA0255C586B0068BF27 /* Item-CoreDataHelpers.swift */; };
 		4D89ECA4255C59220068BF27 /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D89ECA3255C59220068BF27 /* Project-CoreDataHelpers.swift */; };
 		4D89ECA7255D8B330068BF27 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D89ECA6255D8B330068BF27 /* EditItemView.swift */; };
+		4D8A191925655F7700BAECEE /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A191825655F7700BAECEE /* Sequence-Sorting.swift */; };
 		4D8CCBFC255EC88C009B0D8A /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CCBFB255EC88C009B0D8A /* ItemRowView.swift */; };
 		4D8CCBFF255EC9F6009B0D8A /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CCBFE255EC9F6009B0D8A /* Binding-OnChange.swift */; };
 		4D8CCC02255ECD41009B0D8A /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CCC01255ECD41009B0D8A /* ProjectHeaderView.swift */; };
@@ -36,6 +37,7 @@
 		4D89ECA0255C586B0068BF27 /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		4D89ECA3255C59220068BF27 /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		4D89ECA6255D8B330068BF27 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		4D8A191825655F7700BAECEE /* Sequence-Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence-Sorting.swift"; sourceTree = "<group>"; };
 		4D8CCBFB255EC88C009B0D8A /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		4D8CCBFE255EC9F6009B0D8A /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
 		4D8CCC01255ECD41009B0D8A /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				4D89EC91255AD55B0068BF27 /* DataController.swift */,
 				4D89EC99255C23F20068BF27 /* HomeView.swift */,
 				4D89EC9D255C25B30068BF27 /* ProjectsView.swift */,
+				4D8A191825655F7700BAECEE /* Sequence-Sorting.swift */,
 				4D8CCBFE255EC9F6009B0D8A /* Binding-OnChange.swift */,
 				4D8CCBFB255EC88C009B0D8A /* ItemRowView.swift */,
 				4D89ECA0255C586B0068BF27 /* Item-CoreDataHelpers.swift */,
@@ -198,6 +201,7 @@
 				4D8CCBFC255EC88C009B0D8A /* ItemRowView.swift in Sources */,
 				4DEA3AAA25504677007F14EC /* ContentView.swift in Sources */,
 				4D8CCBFF255EC9F6009B0D8A /* Binding-OnChange.swift in Sources */,
+				4D8A191925655F7700BAECEE /* Sequence-Sorting.swift in Sources */,
 				4D89EC9A255C23F20068BF27 /* HomeView.swift in Sources */,
 				4DEA3AA825504677007F14EC /* UltimatePortfolioApp.swift in Sources */,
 				4D89ECA1255C586B0068BF27 /* Item-CoreDataHelpers.swift in Sources */,
