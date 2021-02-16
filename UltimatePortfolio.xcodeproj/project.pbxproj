@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4D21B9DC2561D277003C820E /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D21B9DB2561D277003C820E /* EditProjectView.swift */; };
-		4D572A2925C999AC00513E8B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D572A2825C999AC00513E8B /* Localizable.strings */; };
+		4D5806B625D428E0004108DD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D5806B825D428E0004108DD /* Localizable.strings */; };
+		4D5806BB25D429A5004108DD /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 4D5806BD25D429A5004108DD /* Localizable.stringsdict */; };
+		4D5806C125D42AC9004108DD /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D5806C325D42AC9004108DD /* Awards.json */; };
 		4D693C0525C5A3B0006255AE /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D693C0425C5A3B0006255AE /* Color-Additions.swift */; };
 		4D89EC92255AD55B0068BF27 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D89EC91255AD55B0068BF27 /* DataController.swift */; };
 		4D89EC98255AD9F60068BF27 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D89EC97255AD9F60068BF27 /* CloudKit.framework */; };
@@ -20,7 +22,6 @@
 		4D8A191925655F7700BAECEE /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A191825655F7700BAECEE /* Sequence-Sorting.swift */; };
 		4D8A193B2566D1B000BAECEE /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A193A2566D1B000BAECEE /* SelectSomethingView.swift */; };
 		4D8A193F2566D32900BAECEE /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A193E2566D32900BAECEE /* Bundle-Decodable.swift */; };
-		4D8A19422566D6A300BAECEE /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D8A19412566D6A300BAECEE /* Awards.json */; };
 		4D8A19452566D6EE00BAECEE /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A19442566D6EE00BAECEE /* Award.swift */; };
 		4D8A19492566D7A900BAECEE /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A19482566D7A900BAECEE /* AwardsView.swift */; };
 		4D8CCBFC255EC88C009B0D8A /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CCBFB255EC88C009B0D8A /* ItemRowView.swift */; };
@@ -36,7 +37,12 @@
 
 /* Begin PBXFileReference section */
 		4D21B9DB2561D277003C820E /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
-		4D572A2825C999AC00513E8B /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		4D5806B725D428E0004108DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4D5806BA25D428EA004108DD /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4D5806BC25D429A5004108DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		4D5806BF25D429AA004108DD /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = hu; path = hu.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		4D5806C225D42AC9004108DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
+		4D5806C525D42AD0004108DD /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
 		4D693C0425C5A3B0006255AE /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
 		4D89EC91255AD55B0068BF27 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		4D89EC94255AD9D10068BF27 /* UltimatePortfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UltimatePortfolio.entitlements; sourceTree = "<group>"; };
@@ -49,7 +55,6 @@
 		4D8A191825655F7700BAECEE /* Sequence-Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence-Sorting.swift"; sourceTree = "<group>"; };
 		4D8A193A2566D1B000BAECEE /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
 		4D8A193E2566D32900BAECEE /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
-		4D8A19412566D6A300BAECEE /* Awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Awards.json; sourceTree = "<group>"; };
 		4D8A19442566D6EE00BAECEE /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		4D8A19482566D7A900BAECEE /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		4D8CCBFB255EC88C009B0D8A /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
@@ -105,7 +110,7 @@
 		4DEA3AA625504677007F14EC /* UltimatePortfolio */ = {
 			isa = PBXGroup;
 			children = (
-				4D8A19412566D6A300BAECEE /* Awards.json */,
+				4D5806C325D42AC9004108DD /* Awards.json */,
 				4DEA3AAB25504678007F14EC /* Assets.xcassets */,
 				4D8CCBFE255EC9F6009B0D8A /* Binding-OnChange.swift */,
 				4D8CCC04255ECEA0009B0D8A /* Colors.xcassets */,
@@ -113,7 +118,8 @@
 				4D89EC91255AD55B0068BF27 /* DataController.swift */,
 				4D89ECA6255D8B330068BF27 /* EditItemView.swift */,
 				4D21B9DB2561D277003C820E /* EditProjectView.swift */,
-				4D572A2825C999AC00513E8B /* Localizable.strings */,
+				4D5806B825D428E0004108DD /* Localizable.strings */,
+				4D5806BD25D429A5004108DD /* Localizable.stringsdict */,
 				4D89EC99255C23F20068BF27 /* HomeView.swift */,
 				4D693C0425C5A3B0006255AE /* Color-Additions.swift */,
 				4DEA3AB025504678007F14EC /* Info.plist */,
@@ -184,6 +190,7 @@
 			knownRegions = (
 				en,
 				Base,
+				hu,
 			);
 			mainGroup = 4DEA3A9B25504677007F14EC;
 			productRefGroup = 4DEA3AA525504677007F14EC /* Products */;
@@ -201,10 +208,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D8CCC05255ECEA0009B0D8A /* Colors.xcassets in Resources */,
-				4D8A19422566D6A300BAECEE /* Awards.json in Resources */,
+				4D5806C125D42AC9004108DD /* Awards.json in Resources */,
 				4DEA3AAF25504678007F14EC /* Preview Assets.xcassets in Resources */,
 				4DEA3AAC25504678007F14EC /* Assets.xcassets in Resources */,
-				4D572A2925C999AC00513E8B /* Localizable.strings in Resources */,
+				4D5806B625D428E0004108DD /* Localizable.strings in Resources */,
+				4D5806BB25D429A5004108DD /* Localizable.stringsdict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +246,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D5806B825D428E0004108DD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D5806B725D428E0004108DD /* en */,
+				4D5806BA25D428EA004108DD /* hu */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		4D5806BD25D429A5004108DD /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D5806BC25D429A5004108DD /* en */,
+				4D5806BF25D429AA004108DD /* hu */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
+		4D5806C325D42AC9004108DD /* Awards.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D5806C225D42AC9004108DD /* en */,
+				4D5806C525D42AD0004108DD /* hu */,
+			);
+			name = Awards.json;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4DEA3AB125504678007F14EC /* Debug */ = {
