@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D12D74A263EDCA400E66186 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12D749263EDCA400E66186 /* ItemListView.swift */; };
+		4D12D74C263EDD8900E66186 /* ProjectSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12D74B263EDD8900E66186 /* ProjectSummaryView.swift */; };
 		4D21B9DC2561D277003C820E /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D21B9DB2561D277003C820E /* EditProjectView.swift */; };
 		4D5806B625D428E0004108DD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D5806B825D428E0004108DD /* Localizable.strings */; };
 		4D5806BB25D429A5004108DD /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 4D5806BD25D429A5004108DD /* Localizable.stringsdict */; };
@@ -36,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D12D749263EDCA400E66186 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		4D12D74B263EDD8900E66186 /* ProjectSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSummaryView.swift; sourceTree = "<group>"; };
 		4D21B9DB2561D277003C820E /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		4D5806B725D428E0004108DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4D5806BA25D428EA004108DD /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -123,6 +127,7 @@
 				4D89ECA6255D8B330068BF27 /* EditItemView.swift */,
 				4D21B9DB2561D277003C820E /* EditProjectView.swift */,
 				4D89EC99255C23F20068BF27 /* HomeView.swift */,
+				4D12D74B263EDD8900E66186 /* ProjectSummaryView.swift */,
 				4DEA3AB025504678007F14EC /* Info.plist */,
 				4D89ECA0255C586B0068BF27 /* Item-CoreDataHelpers.swift */,
 				4D8CCBFB255EC88C009B0D8A /* ItemRowView.swift */,
@@ -137,6 +142,7 @@
 				4D8A191825655F7700BAECEE /* Sequence-Sorting.swift */,
 				4D89EC94255AD9D10068BF27 /* UltimatePortfolio.entitlements */,
 				4DEA3AA725504677007F14EC /* UltimatePortfolioApp.swift */,
+				4D12D749263EDCA400E66186 /* ItemListView.swift */,
 			);
 			path = UltimatePortfolio;
 			sourceTree = "<group>";
@@ -176,7 +182,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1210;
-				LastUpgradeCheck = 1210;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					4DEA3AA325504677007F14EC = {
 						CreatedOnToolsVersion = 12.1;
@@ -224,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D89EC9E255C25B30068BF27 /* ProjectsView.swift in Sources */,
+				4D12D74C263EDD8900E66186 /* ProjectSummaryView.swift in Sources */,
 				4D8CCC02255ECD41009B0D8A /* ProjectHeaderView.swift in Sources */,
 				4D8A19492566D7A900BAECEE /* AwardsView.swift in Sources */,
 				4DEA3AB9255046E9007F14EC /* Main.xcdatamodeld in Sources */,
@@ -238,6 +245,7 @@
 				4D8A191925655F7700BAECEE /* Sequence-Sorting.swift in Sources */,
 				4D8A19452566D6EE00BAECEE /* Award.swift in Sources */,
 				4D8A193F2566D32900BAECEE /* Bundle-Decodable.swift in Sources */,
+				4D12D74A263EDCA400E66186 /* ItemListView.swift in Sources */,
 				4D89EC9A255C23F20068BF27 /* HomeView.swift in Sources */,
 				4DEA3AA825504677007F14EC /* UltimatePortfolioApp.swift in Sources */,
 				4D89ECA1255C586B0068BF27 /* Item-CoreDataHelpers.swift in Sources */,
@@ -282,6 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -343,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

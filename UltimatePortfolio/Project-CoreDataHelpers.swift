@@ -5,7 +5,7 @@
 //  Created by Mark Townsend on 11/11/20.
 //
 
-import Foundation
+import SwiftUI
 
 extension Project {
     var projectTitle: String {
@@ -17,7 +17,7 @@ extension Project {
     }
 
     var projectColor: String {
-        color ?? "Light Blue"
+        color ?? Project.defaultColor
     }
 
     var projectItems: [Item] {
@@ -54,8 +54,13 @@ extension Project {
         return Double(completedItems.count) / Double(originalItems.count)
     }
 
-    static let colors = ["Pink", "Purple", "Red", "Orange", "Gold", "Green", "Teal", "Light Blue", "Dark Blue", "Midnight", "Dark Gray", "Gray"]
+    var label: LocalizedStringKey {
+        LocalizedStringKey("\(projectTitle), \(projectItems.count) items, \(completionAmount * 100, specifier: "%g")% complete.")
+    }
 
+    static let colors = ["Pink", "Purple", "Red", "Orange", "Gold", "Green", "Teal", "Light Blue", "Dark Blue", "Midnight", "Dark Gray", "Gray"]
+    static let defaultColor = "Light Blue"
+    
     static var example: Project {
         let controller = DataController(inMemory: true)
         let viewContext = controller.container.viewContext
