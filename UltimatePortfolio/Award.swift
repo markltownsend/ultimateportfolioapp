@@ -1,5 +1,5 @@
 //
-//  Award.swft.swift
+//  Award.swift
 //  UltimatePortfolio
 //
 //  Created by Mark Townsend on 11/19/20.

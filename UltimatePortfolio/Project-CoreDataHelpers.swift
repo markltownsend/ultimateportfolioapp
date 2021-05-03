@@ -55,12 +55,28 @@ extension Project {
     }
 
     var label: LocalizedStringKey {
-        LocalizedStringKey("\(projectTitle), \(projectItems.count) items, \(completionAmount * 100, specifier: "%g")% complete.")
+        LocalizedStringKey(
+            "\(projectTitle), \(projectItems.count) items, \(completionAmount * 100, specifier: "%g")% complete."
+        )
     }
 
-    static let colors = ["Pink", "Purple", "Red", "Orange", "Gold", "Green", "Teal", "Light Blue", "Dark Blue", "Midnight", "Dark Gray", "Gray"]
+    static let colors = [
+        "Pink",
+        "Purple",
+        "Red",
+        "Orange",
+        "Gold",
+        "Green",
+        "Teal",
+        "Light Blue",
+        "Dark Blue",
+        "Midnight",
+        "Dark Gray",
+        "Gray"
+    ]
+
     static let defaultColor = "Light Blue"
-    
+
     static var example: Project {
         let controller = DataController(inMemory: true)
         let viewContext = controller.container.viewContext

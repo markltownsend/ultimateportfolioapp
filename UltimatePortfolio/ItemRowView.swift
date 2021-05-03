@@ -33,7 +33,7 @@ struct ItemRowView: View {
             return Text(item.itemTitle)
         }
     }
-    
+
     var body: some View {
         NavigationLink(destination: EditItemView(item: item)) {
             Label {
