@@ -14,10 +14,15 @@ struct AwardsView: View {
         [GridItem(.adaptive(minimum: 100, maximum: 100))]
     }
 
-    @EnvironmentObject var dataController: DataController
+    @StateObject var viewModel: ViewModel
 
     @State private var selectedAward = Award.example
     @State private var showingAwardDetails = false
+
+    init(dataController: DataController) {
+        let viewModel = ViewModel(dataController: dataController)
+        _viewModel = StateObject(wrappedValue: viewModel)
+    }
 
     var body: some View {
         NavigationView {
@@ -47,15 +52,15 @@ struct AwardsView: View {
 
     // MARK: - Helper functions
     func color(for award: Award) -> Color {
-        dataController.hasEarned(award: award) ? Color(award.color) : Color.secondary.opacity(0.5)
+        viewModel.color(for: award).map { Color($0) } ?? Color.secondary.opacity(0.5)
     }
 
     func label(for award: Award) -> Text {
-        Text(dataController.hasEarned(award: award) ? "Unlocked: \(award.name)" : "Locked")
+        Text(viewModel.label(for: award))
     }
 
     func getAwardAlert() -> Alert {
-        if dataController.hasEarned(award: selectedAward) {
+        if viewModel.hasEarned(award: selectedAward) {
             return Alert(
                 title: Text("Unlocked: \(selectedAward.name)"),
                 message: Text("\(Text(selectedAward.description))"),
@@ -73,6 +78,6 @@ struct AwardsView: View {
 
 struct AwardsView_Previews: PreviewProvider {
     static var previews: some View {
-        AwardsView()
+        AwardsView(dataController: .preview)
     }
 }
