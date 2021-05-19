@@ -45,7 +45,7 @@ extension ItemRowView {
         var title: String {
             item.itemTitle
         }
-        
+
         init(project: Project, item: Item) {
             self.project = project
             self.item = item
