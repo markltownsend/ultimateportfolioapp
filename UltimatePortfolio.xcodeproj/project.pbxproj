@@ -10,6 +10,7 @@
 		46532F5739EF42AEBD20B7A9 /* Pods_UltimatePortfolio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294FA1578A2A98368F354765 /* Pods_UltimatePortfolio.framework */; };
 		4D12D74A263EDCA400E66186 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12D749263EDCA400E66186 /* ItemListView.swift */; };
 		4D12D74C263EDD8900E66186 /* ProjectSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12D74B263EDD8900E66186 /* ProjectSummaryView.swift */; };
+		4D205008265A8975008B4D03 /* UnlockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D205007265A8975008B4D03 /* UnlockManager.swift */; };
 		4D21B9DC2561D277003C820E /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D21B9DB2561D277003C820E /* EditProjectView.swift */; };
 		4D2483372642CBE2002FFCE5 /* UltimatePortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2483362642CBE2002FFCE5 /* UltimatePortfolioTests.swift */; };
 		4D24833F2642CD03002FFCE5 /* AssetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D24833E2642CD03002FFCE5 /* AssetTests.swift */; };
@@ -73,6 +74,8 @@
 		294FA1578A2A98368F354765 /* Pods_UltimatePortfolio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UltimatePortfolio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D12D749263EDCA400E66186 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
 		4D12D74B263EDD8900E66186 /* ProjectSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSummaryView.swift; sourceTree = "<group>"; };
+		4D205007265A8975008B4D03 /* UnlockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockManager.swift; sourceTree = "<group>"; };
+		4D205009265A8B19008B4D03 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
 		4D21B9DB2561D277003C820E /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		4D2483342642CBE2002FFCE5 /* UltimatePortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatePortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D2483362642CBE2002FFCE5 /* UltimatePortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioTests.swift; sourceTree = "<group>"; };
@@ -338,6 +341,8 @@
 				4DEA3AAD25504678007F14EC /* Preview Content */,
 				4D89EC91255AD55B0068BF27 /* DataController.swift */,
 				4DEA3AA725504677007F14EC /* UltimatePortfolioApp.swift */,
+				4D205007265A8975008B4D03 /* UnlockManager.swift */,
+				4D205009265A8B19008B4D03 /* Configuration.storekit */,
 			);
 			path = UltimatePortfolio;
 			sourceTree = "<group>";
@@ -558,6 +563,7 @@
 				4D8CCC02255ECD41009B0D8A /* ProjectHeaderView.swift in Sources */,
 				4D8A19492566D7A900BAECEE /* AwardsView.swift in Sources */,
 				4DEA3AB9255046E9007F14EC /* Main.xcdatamodeld in Sources */,
+				4D205008265A8975008B4D03 /* UnlockManager.swift in Sources */,
 				4D8EABF12652A34100214A6B /* HomeViewModel.swift in Sources */,
 				4D89ECA4255C59220068BF27 /* Project-CoreDataHelpers.swift in Sources */,
 				4D693C0525C5A3B0006255AE /* Color-Additions.swift in Sources */,
