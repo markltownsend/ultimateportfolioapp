@@ -55,6 +55,8 @@
 		4DEA3AAC25504678007F14EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEA3AAB25504678007F14EC /* Assets.xcassets */; };
 		4DEA3AAF25504678007F14EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEA3AAE25504678007F14EC /* Preview Assets.xcassets */; };
 		4DEA3AB9255046E9007F14EC /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA3AB7255046E9007F14EC /* Main.xcdatamodeld */; };
+		4DF93F0D26A8527D00A38FB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF93F0C26A8527D00A38FB2 /* AppDelegate.swift */; };
+		4DF93F0F26A852A200A38FB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF93F0E26A852A200A38FB2 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,6 +137,8 @@
 		4DEA3AAE25504678007F14EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4DEA3AB025504678007F14EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DEA3AB8255046E9007F14EC /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		4DF93F0C26A8527D00A38FB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DF93F0E26A852A200A38FB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BD7801A2C440EA0EC6B7772E /* Pods-UltimatePortfolio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UltimatePortfolio.release.xcconfig"; path = "Target Support Files/Pods-UltimatePortfolio/Pods-UltimatePortfolio.release.xcconfig"; sourceTree = "<group>"; };
 		FE0F2C239DBDE644E89C7457 /* Pods-UltimatePortfolio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UltimatePortfolio.debug.xcconfig"; path = "Target Support Files/Pods-UltimatePortfolio/Pods-UltimatePortfolio.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -197,6 +201,7 @@
 				4D54731D26A70C67002590BF /* UnlockView.swift */,
 				4D54731926A70A64002590BF /* PurchaseButton.swift */,
 				4D54731B26A70B19002590BF /* ProductView.swift */,
+				4D205007265A8975008B4D03 /* UnlockManager.swift */,
 			);
 			path = Unlock;
 			sourceTree = "<group>";
@@ -362,7 +367,8 @@
 				4DEA3AAD25504678007F14EC /* Preview Content */,
 				4D89EC91255AD55B0068BF27 /* DataController.swift */,
 				4DEA3AA725504677007F14EC /* UltimatePortfolioApp.swift */,
-				4D205007265A8975008B4D03 /* UnlockManager.swift */,
+				4DF93F0C26A8527D00A38FB2 /* AppDelegate.swift */,
+				4DF93F0E26A852A200A38FB2 /* SceneDelegate.swift */,
 			);
 			path = UltimatePortfolio;
 			sourceTree = "<group>";
@@ -600,6 +606,8 @@
 				4D8A191925655F7700BAECEE /* Sequence-Sorting.swift in Sources */,
 				4D8A19452566D6EE00BAECEE /* Award.swift in Sources */,
 				4D8A193F2566D32900BAECEE /* Bundle-Decodable.swift in Sources */,
+				4DF93F0D26A8527D00A38FB2 /* AppDelegate.swift in Sources */,
+				4DF93F0F26A852A200A38FB2 /* SceneDelegate.swift in Sources */,
 				4D12D74A263EDCA400E66186 /* ItemListView.swift in Sources */,
 				4D89EC9A255C23F20068BF27 /* HomeView.swift in Sources */,
 				4D54731826A709CB002590BF /* SKProduct-LocalizedPrice.swift in Sources */,

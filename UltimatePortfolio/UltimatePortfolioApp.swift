@@ -10,6 +10,8 @@ import SwiftUI
 @main
 struct UltimatePortfolioApp: App {
 
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     @StateObject var dataController: DataController
     @StateObject var unlockManager: UnlockManager
 
