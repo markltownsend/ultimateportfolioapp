@@ -12,7 +12,7 @@ extension HomeView {
     class ViewModel: NSObject, ObservableObject, NSFetchedResultsControllerDelegate {
         private let projectsController: NSFetchedResultsController<Project>
         private let itemsController: NSFetchedResultsController<Item>
-
+        
         @Published var projects = [Project]()
         @Published var items = [Item]()
         @Published var selectedItem: Item?
@@ -44,12 +44,7 @@ extension HomeView {
 
             // Construct a fetch request to show the 10 highest-priority,
             // incomplete items from open projects
-            let itemRequest: NSFetchRequest<Item> = Item.fetchRequest()
-
-            let completedPredicate = NSPredicate(format: "completed = false")
-            let openPredicate = NSPredicate(format: "project.closed = false")
-            itemRequest.predicate = NSCompoundPredicate(type: .and, subpredicates: [completedPredicate, openPredicate])
-            itemRequest.sortDescriptors = [NSSortDescriptor(keyPath: \Item.priority, ascending: false)]
+            let itemRequest = dataController.fetchRequestForTopItems(count: 10)
 
             itemsController = NSFetchedResultsController(
                 fetchRequest: itemRequest,
