@@ -62,6 +62,7 @@
 		4DA5F0292646D2B000B346EC /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA5F0282646D2B000B346EC /* PerformanceTests.swift */; };
 		4DB9F70F26C582F100FE300A /* SharedItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB9F70E26C582F100FE300A /* SharedItemsView.swift */; };
 		4DB9F71126C589C200FE300A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB9F71026C589C200FE300A /* SignInView.swift */; };
+		4DB9F71326C5D13500FE300A /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB9F71226C5D13500FE300A /* ChatMessage.swift */; };
 		4DE1B5FA264EB20F00F26330 /* UltimatePortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1B5F9264EB20F00F26330 /* UltimatePortfolioUITests.swift */; };
 		4DE4CBC526C00B8C009B1655 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE4CBC426C00B8C009B1655 /* WidgetKit.framework */; };
 		4DE4CBC726C00B8C009B1655 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE4CBC626C00B8C009B1655 /* SwiftUI.framework */; };
@@ -180,6 +181,7 @@
 		4DA5F0282646D2B000B346EC /* PerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceTests.swift; sourceTree = "<group>"; };
 		4DB9F70E26C582F100FE300A /* SharedItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedItemsView.swift; sourceTree = "<group>"; };
 		4DB9F71026C589C200FE300A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		4DB9F71226C5D13500FE300A /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
 		4DBB749E264036E300704719 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4DE1B5F7264EB20F00F26330 /* UltimatePortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatePortfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE1B5F9264EB20F00F26330 /* UltimatePortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITests.swift; sourceTree = "<group>"; };
@@ -298,6 +300,7 @@
 				4DB9F70E26C582F100FE300A /* SharedItemsView.swift */,
 				4D9C350E26C55C260040055C /* SharedItem.swift */,
 				4D9C351026C55C8A0040055C /* LoadStates.swift */,
+				4DB9F71226C5D13500FE300A /* ChatMessage.swift */,
 			);
 			path = Community;
 			sourceTree = "<group>";
@@ -762,6 +765,7 @@
 				4D54731A26A70A64002590BF /* PurchaseButton.swift in Sources */,
 				4DEA3AAA25504677007F14EC /* ContentView.swift in Sources */,
 				4D8CCBFF255EC9F6009B0D8A /* Binding-OnChange.swift in Sources */,
+				4DB9F71326C5D13500FE300A /* ChatMessage.swift in Sources */,
 				4D8A191925655F7700BAECEE /* Sequence-Sorting.swift in Sources */,
 				4D8A19452566D6EE00BAECEE /* Award.swift in Sources */,
 				4DE4CBDC26C00DF7009B1655 /* DataController-Awards.swift in Sources */,
