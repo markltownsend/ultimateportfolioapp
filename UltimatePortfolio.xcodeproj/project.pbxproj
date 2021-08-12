@@ -52,10 +52,15 @@
 		4D8EABF12652A34100214A6B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EABF02652A34100214A6B /* HomeViewModel.swift */; };
 		4D8EABF32652A8E200214A6B /* ItemRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EABF22652A8E200214A6B /* ItemRowViewModel.swift */; };
 		4D8EABF52652ACA400214A6B /* AwardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EABF42652ACA400214A6B /* AwardsViewModel.swift */; };
+		4D9C350D26C55B5D0040055C /* SharedProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C350C26C55B5C0040055C /* SharedProject.swift */; };
+		4D9C350F26C55C260040055C /* SharedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C350E26C55C260040055C /* SharedItem.swift */; };
+		4D9C351126C55C8A0040055C /* LoadStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C351026C55C8A0040055C /* LoadStates.swift */; };
+		4D9C351426C55D1A0040055C /* SharedProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C351326C55D1A0040055C /* SharedProjectsView.swift */; };
 		4DA5F0222645732300B346EC /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA5F0212645732300B346EC /* ExtensionTests.swift */; };
 		4DA5F0252645770100B346EC /* DecodableDictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DA5F0242645770100B346EC /* DecodableDictionary.json */; };
 		4DA5F0272645772C00B346EC /* DecodableString.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DA5F0262645772C00B346EC /* DecodableString.json */; };
 		4DA5F0292646D2B000B346EC /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA5F0282646D2B000B346EC /* PerformanceTests.swift */; };
+		4DB9F70F26C582F100FE300A /* SharedItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB9F70E26C582F100FE300A /* SharedItemsView.swift */; };
 		4DE1B5FA264EB20F00F26330 /* UltimatePortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1B5F9264EB20F00F26330 /* UltimatePortfolioUITests.swift */; };
 		4DE4CBC526C00B8C009B1655 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE4CBC426C00B8C009B1655 /* WidgetKit.framework */; };
 		4DE4CBC726C00B8C009B1655 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE4CBC626C00B8C009B1655 /* SwiftUI.framework */; };
@@ -164,10 +169,15 @@
 		4D8EABF02652A34100214A6B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		4D8EABF22652A8E200214A6B /* ItemRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowViewModel.swift; sourceTree = "<group>"; };
 		4D8EABF42652ACA400214A6B /* AwardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsViewModel.swift; sourceTree = "<group>"; };
+		4D9C350C26C55B5C0040055C /* SharedProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedProject.swift; sourceTree = "<group>"; };
+		4D9C350E26C55C260040055C /* SharedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedItem.swift; sourceTree = "<group>"; };
+		4D9C351026C55C8A0040055C /* LoadStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadStates.swift; sourceTree = "<group>"; };
+		4D9C351326C55D1A0040055C /* SharedProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedProjectsView.swift; sourceTree = "<group>"; };
 		4DA5F0212645732300B346EC /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
 		4DA5F0242645770100B346EC /* DecodableDictionary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableDictionary.json; sourceTree = "<group>"; };
 		4DA5F0262645772C00B346EC /* DecodableString.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableString.json; sourceTree = "<group>"; };
 		4DA5F0282646D2B000B346EC /* PerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceTests.swift; sourceTree = "<group>"; };
+		4DB9F70E26C582F100FE300A /* SharedItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedItemsView.swift; sourceTree = "<group>"; };
 		4DBB749E264036E300704719 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4DE1B5F7264EB20F00F26330 /* UltimatePortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatePortfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE1B5F9264EB20F00F26330 /* UltimatePortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITests.swift; sourceTree = "<group>"; };
@@ -278,6 +288,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4D9C351226C55CC90040055C /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				4D9C350C26C55B5C0040055C /* SharedProject.swift */,
+				4D9C351326C55D1A0040055C /* SharedProjectsView.swift */,
+				4DB9F70E26C582F100FE300A /* SharedItemsView.swift */,
+				4D9C350E26C55C260040055C /* SharedItem.swift */,
+				4D9C351026C55C8A0040055C /* LoadStates.swift */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
 		4DA5F023264576C600B346EC /* MockData */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,6 +363,7 @@
 		4DBB74A5264038A700704719 /* Activities */ = {
 			isa = PBXGroup;
 			children = (
+				4D9C351226C55CC90040055C /* Community */,
 				4D54731F26A73145002590BF /* Unlock */,
 				4DEA3AA925504677007F14EC /* ContentView.swift */,
 				4DBB74A92640390400704719 /* Awards */,
@@ -720,6 +743,7 @@
 				4D12D74C263EDD8900E66186 /* ProjectSummaryView.swift in Sources */,
 				4D8CCC02255ECD41009B0D8A /* ProjectHeaderView.swift in Sources */,
 				4D8A19492566D7A900BAECEE /* AwardsView.swift in Sources */,
+				4D9C350F26C55C260040055C /* SharedItem.swift in Sources */,
 				4DEA3AB9255046E9007F14EC /* Main.xcdatamodeld in Sources */,
 				4D205008265A8975008B4D03 /* UnlockManager.swift in Sources */,
 				4D8EABF12652A34100214A6B /* HomeViewModel.swift in Sources */,
@@ -739,7 +763,11 @@
 				4DE4CBDC26C00DF7009B1655 /* DataController-Awards.swift in Sources */,
 				4D8A193F2566D32900BAECEE /* Bundle-Decodable.swift in Sources */,
 				4DE4CBDE26C00E99009B1655 /* DataController-Application.swift in Sources */,
+				4D9C351426C55D1A0040055C /* SharedProjectsView.swift in Sources */,
+				4D9C350D26C55B5D0040055C /* SharedProject.swift in Sources */,
 				4DF93F0D26A8527D00A38FB2 /* AppDelegate.swift in Sources */,
+				4DB9F70F26C582F100FE300A /* SharedItemsView.swift in Sources */,
+				4D9C351126C55C8A0040055C /* LoadStates.swift in Sources */,
 				4DF93F0F26A852A200A38FB2 /* SceneDelegate.swift in Sources */,
 				4D12D74A263EDCA400E66186 /* ItemListView.swift in Sources */,
 				4D89EC9A255C23F20068BF27 /* HomeView.swift in Sources */,
