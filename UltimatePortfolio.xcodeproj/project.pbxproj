@@ -61,6 +61,7 @@
 		4DA5F0272645772C00B346EC /* DecodableString.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DA5F0262645772C00B346EC /* DecodableString.json */; };
 		4DA5F0292646D2B000B346EC /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA5F0282646D2B000B346EC /* PerformanceTests.swift */; };
 		4DB9F70F26C582F100FE300A /* SharedItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB9F70E26C582F100FE300A /* SharedItemsView.swift */; };
+		4DB9F71126C589C200FE300A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB9F71026C589C200FE300A /* SignInView.swift */; };
 		4DE1B5FA264EB20F00F26330 /* UltimatePortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1B5F9264EB20F00F26330 /* UltimatePortfolioUITests.swift */; };
 		4DE4CBC526C00B8C009B1655 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE4CBC426C00B8C009B1655 /* WidgetKit.framework */; };
 		4DE4CBC726C00B8C009B1655 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE4CBC626C00B8C009B1655 /* SwiftUI.framework */; };
@@ -178,6 +179,7 @@
 		4DA5F0262645772C00B346EC /* DecodableString.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableString.json; sourceTree = "<group>"; };
 		4DA5F0282646D2B000B346EC /* PerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceTests.swift; sourceTree = "<group>"; };
 		4DB9F70E26C582F100FE300A /* SharedItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedItemsView.swift; sourceTree = "<group>"; };
+		4DB9F71026C589C200FE300A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		4DBB749E264036E300704719 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4DE1B5F7264EB20F00F26330 /* UltimatePortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatePortfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE1B5F9264EB20F00F26330 /* UltimatePortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITests.swift; sourceTree = "<group>"; };
@@ -369,6 +371,7 @@
 				4DBB74A92640390400704719 /* Awards */,
 				4DBB74A8264038FF00704719 /* Projects */,
 				4DBB74A7264038EE00704719 /* Home */,
+				4DB9F71026C589C200FE300A /* SignInView.swift */,
 			);
 			path = Activities;
 			sourceTree = "<group>";
@@ -751,6 +754,7 @@
 				4D693C0525C5A3B0006255AE /* Color-Additions.swift in Sources */,
 				4D21B9DC2561D277003C820E /* EditProjectView.swift in Sources */,
 				4D89EC92255AD55B0068BF27 /* DataController.swift in Sources */,
+				4DB9F71126C589C200FE300A /* SignInView.swift in Sources */,
 				4D8EABF52652ACA400214A6B /* AwardsViewModel.swift in Sources */,
 				4D8A193B2566D1B000BAECEE /* SelectSomethingView.swift in Sources */,
 				4D54731E26A70C67002590BF /* UnlockView.swift in Sources */,
