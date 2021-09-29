@@ -82,6 +82,8 @@
 		4DEA3AB9255046E9007F14EC /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA3AB7255046E9007F14EC /* Main.xcdatamodeld */; };
 		4DF93F0D26A8527D00A38FB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF93F0C26A8527D00A38FB2 /* AppDelegate.swift */; };
 		4DF93F0F26A852A200A38FB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF93F0E26A852A200A38FB2 /* SceneDelegate.swift */; };
+		C3AC4F2027049AA900E92910 /* Error-CloudKitMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC4F1F27049AA900E92910 /* Error-CloudKitMessage.swift */; };
+		C3AC4F2227049DD300E92910 /* CloudError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC4F2127049DD300E92910 /* CloudError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -206,6 +208,8 @@
 		4DF93F0C26A8527D00A38FB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DF93F0E26A852A200A38FB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BD7801A2C440EA0EC6B7772E /* Pods-UltimatePortfolio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UltimatePortfolio.release.xcconfig"; path = "Target Support Files/Pods-UltimatePortfolio/Pods-UltimatePortfolio.release.xcconfig"; sourceTree = "<group>"; };
+		C3AC4F1F27049AA900E92910 /* Error-CloudKitMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error-CloudKitMessage.swift"; sourceTree = "<group>"; };
+		C3AC4F2127049DD300E92910 /* CloudError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudError.swift; sourceTree = "<group>"; };
 		FE0F2C239DBDE644E89C7457 /* Pods-UltimatePortfolio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UltimatePortfolio.debug.xcconfig"; path = "Target Support Files/Pods-UltimatePortfolio/Pods-UltimatePortfolio.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -341,6 +345,7 @@
 				4D89ECA3255C59220068BF27 /* Project-CoreDataHelpers.swift */,
 				4D8A191825655F7700BAECEE /* Sequence-Sorting.swift */,
 				4D54731726A709CB002590BF /* SKProduct-LocalizedPrice.swift */,
+				C3AC4F1F27049AA900E92910 /* Error-CloudKitMessage.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -480,6 +485,7 @@
 				4DEA3AA725504677007F14EC /* UltimatePortfolioApp.swift */,
 				4DF93F0C26A8527D00A38FB2 /* AppDelegate.swift */,
 				4DF93F0E26A852A200A38FB2 /* SceneDelegate.swift */,
+				C3AC4F2127049DD300E92910 /* CloudError.swift */,
 			);
 			path = UltimatePortfolio;
 			sourceTree = "<group>";
@@ -764,11 +770,13 @@
 				4D8CCBFC255EC88C009B0D8A /* ItemRowView.swift in Sources */,
 				4D54731A26A70A64002590BF /* PurchaseButton.swift in Sources */,
 				4DEA3AAA25504677007F14EC /* ContentView.swift in Sources */,
+				C3AC4F2227049DD300E92910 /* CloudError.swift in Sources */,
 				4D8CCBFF255EC9F6009B0D8A /* Binding-OnChange.swift in Sources */,
 				4DB9F71326C5D13500FE300A /* ChatMessage.swift in Sources */,
 				4D8A191925655F7700BAECEE /* Sequence-Sorting.swift in Sources */,
 				4D8A19452566D6EE00BAECEE /* Award.swift in Sources */,
 				4DE4CBDC26C00DF7009B1655 /* DataController-Awards.swift in Sources */,
+				C3AC4F2027049AA900E92910 /* Error-CloudKitMessage.swift in Sources */,
 				4D8A193F2566D32900BAECEE /* Bundle-Decodable.swift in Sources */,
 				4DE4CBDE26C00E99009B1655 /* DataController-Application.swift in Sources */,
 				4D9C351426C55D1A0040055C /* SharedProjectsView.swift in Sources */,
