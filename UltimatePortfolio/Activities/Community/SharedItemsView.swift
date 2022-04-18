@@ -11,6 +11,7 @@ import SwiftUI
 struct SharedItemsView: View {
     let project: SharedProject
 
+    @AppStorage("chatCount") var chatCount = 0
     @AppStorage("username") var username: String?
     @State private var showingSignIn = false
     @State private var newChatText = ""
@@ -85,7 +86,7 @@ struct SharedItemsView: View {
         .alert(item: $cloudError) { error in
             Alert(
                 title: Text("There was an error"),
-                message: Text(error.message)
+                message: Text(error.localizedMessage)
             )
         }
     }
@@ -190,6 +191,7 @@ struct SharedItemsView: View {
             } else if let record = record {
                 let message = ChatMessage(from: record)
                 messages.append(message)
+                chatCount += 1
             }
         }
     }

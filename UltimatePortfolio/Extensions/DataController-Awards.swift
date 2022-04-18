@@ -23,6 +23,10 @@ extension DataController {
             let awardCount = count(for: fetchRequest)
             return awardCount >= award.value
 
+        case "chat":
+            // return true if they posted a certain number of chat messages
+            return UserDefaults.standard.integer(forKey: "chatCount") >= award.value
+
         default:
             // an unknown award criterion; this should never be allowed
             break
