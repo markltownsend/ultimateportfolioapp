@@ -56,7 +56,9 @@ struct EditItemView: View {
 
     func update() {
         if completed == true {
+            #if os(iOS)
             UINotificationFeedbackGenerator().notificationOccurred(.success)
+            #endif
         }
 
         item.project?.objectWillChange.send()
