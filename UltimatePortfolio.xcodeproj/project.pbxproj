@@ -26,6 +26,7 @@
 		4D5806B625D428E0004108DD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D5806B825D428E0004108DD /* Localizable.strings */; };
 		4D5806BB25D429A5004108DD /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 4D5806BD25D429A5004108DD /* Localizable.stringsdict */; };
 		4D5806C125D42AC9004108DD /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D5806C325D42AC9004108DD /* Awards.json */; };
+		4D6520C528F4578C0051B4B7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6520C428F4578C0051B4B7 /* HomeView.swift */; };
 		4D693C0525C5A3B0006255AE /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D693C0425C5A3B0006255AE /* Color-Additions.swift */; };
 		4D79E51B265158B300B6E71B /* ProjectsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D79E51A265158B300B6E71B /* ProjectsViewModel.swift */; };
 		4D801BB226C166BF00D02581 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D5806B825D428E0004108DD /* Localizable.strings */; };
@@ -66,7 +67,6 @@
 		4DA4E1AB280EEB2F004B9BCE /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12D749263EDCA400E66186 /* ItemListView.swift */; };
 		4DA4E1AC280EEB2F004B9BCE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EABF02652A34100214A6B /* HomeViewModel.swift */; };
 		4DA4E1AD280EEB2F004B9BCE /* ProjectSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12D74B263EDD8900E66186 /* ProjectSummaryView.swift */; };
-		4DA4E1AE280EEB2F004B9BCE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D89EC99255C23F20068BF27 /* HomeView.swift */; };
 		4DA4E1AF280EEB37004B9BCE /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D89EC9D255C25B30068BF27 /* ProjectsView.swift */; };
 		4DA4E1B0280EEB37004B9BCE /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A193A2566D1B000BAECEE /* SelectSomethingView.swift */; };
 		4DA4E1B1280EEB37004B9BCE /* ProjectsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D79E51A265158B300B6E71B /* ProjectsViewModel.swift */; };
@@ -198,6 +198,7 @@
 		4D5806BF25D429AA004108DD /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = hu; path = hu.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		4D5806C225D42AC9004108DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
 		4D5806C525D42AD0004108DD /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
+		4D6520C428F4578C0051B4B7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = UltimatePortfolio/HomeView.swift; sourceTree = SOURCE_ROOT; };
 		4D693C0425C5A3B0006255AE /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
 		4D79E51A265158B300B6E71B /* ProjectsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewModel.swift; sourceTree = "<group>"; };
 		4D801BB626C176C000D02581 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
@@ -379,6 +380,7 @@
 		4DA4E199280EE94C004B9BCE /* UltimatePortfolioMac */ = {
 			isa = PBXGroup;
 			children = (
+				4D6520C428F4578C0051B4B7 /* HomeView.swift */,
 				4DA4E19E280EE94D004B9BCE /* Assets.xcassets */,
 				4DA4E1A3280EE94D004B9BCE /* UltimatePortfolioMac.entitlements */,
 				4DA4E1A0280EE94D004B9BCE /* Preview Content */,
@@ -689,7 +691,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					4D2483332642CBE2002FFCE5 = {
 						CreatedOnToolsVersion = 12.5;
@@ -866,9 +868,9 @@
 				4DA4E1CD280EEC7D004B9BCE /* SharedProject.swift in Sources */,
 				4D29C953280EF255004B1E7A /* CloudError.swift in Sources */,
 				4DA4E1B3280EEB37004B9BCE /* ProjectHeaderView.swift in Sources */,
+				4D6520C528F4578C0051B4B7 /* HomeView.swift in Sources */,
 				4DA4E1D2280EEC91004B9BCE /* ProductView.swift in Sources */,
 				4DA4E1C5280EEC72004B9BCE /* DataController-Awards.swift in Sources */,
-				4DA4E1AE280EEB2F004B9BCE /* HomeView.swift in Sources */,
 				4DA4E1DA280EEE6C004B9BCE /* Color-Additions.swift in Sources */,
 				4DA4E1CC280EEC7D004B9BCE /* SharedProjectsView.swift in Sources */,
 				4DA4E1CE280EEC7D004B9BCE /* SharedItem.swift in Sources */,
@@ -1071,6 +1073,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_ENTITLEMENTS = UltimatePortfolioMac/UltimatePortfolioMac.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1101,6 +1104,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_ENTITLEMENTS = UltimatePortfolioMac/UltimatePortfolioMac.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;

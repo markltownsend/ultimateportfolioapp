@@ -28,8 +28,6 @@ struct ProjectsView: View {
                 addProjectToolbarItem
                 sortOrderToolbarItem
             }
-
-
             SelectSomethingView()
         }
         .sheet(isPresented: $viewModel.showingUnlockView) {
@@ -38,11 +36,17 @@ struct ProjectsView: View {
     }
 
     var projectsList: some View {
-        List {
+        List(selection: $viewModel.selectedItem) {
             ForEach(viewModel.projects) { project in
                 Section(header: ProjectHeaderView(project: project)) {
                     ForEach(project.projectItems(using: viewModel.sortOrder)) { item in
                         ItemRowView(project: project, item: item)
+                            .contextMenu {
+                                Button("Delete", role: .destructive) {
+                                    viewModel.delete(item)
+                                }
+                            }
+                            .tag(item)
                     }
                     .onDelete { (offsets) in
                         viewModel.delete(offsets, from: project)
@@ -52,13 +56,23 @@ struct ProjectsView: View {
                         Button {
                             viewModel.addItem(to: project)
                         } label: {
-                            Label("Add New Item", systemImage: "plus")
+                            HStack {
+                                Image(systemName: "plus")
+                                    .foregroundColor(.secondary)
+                                Text("Add New Item")
+                            }
                         }
+                        .buttonStyle(.borderless)
                     }
                 }
+                .disableCollapsing()
             }
         }
         .listStyle(InsetGroupedListStyle())
+        .onDeleteCommand {
+            guard let selectedItem = viewModel.selectedItem else { return }
+            viewModel.delete(selectedItem)
+        }
     }
 
     // MARK: - Initializer

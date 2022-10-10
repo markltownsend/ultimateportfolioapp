@@ -12,7 +12,8 @@ extension ProjectsView {
     class ViewModel: NSObject, ObservableObject, NSFetchedResultsControllerDelegate {
         
         @Published var showingUnlockView = false
-        
+        @Published var selectedItem: Item?
+
         let dataController: DataController
         var sortOrder = Item.SortOrder.optimized
         let showClosedProjects: Bool
@@ -66,6 +67,11 @@ extension ProjectsView {
                 let item = allItems[offset]
                 dataController.delete(item)
             }
+            dataController.save()
+        }
+
+        func delete(_ item: Item) {
+            dataController.delete(item)
             dataController.save()
         }
         
